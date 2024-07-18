@@ -1,16 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Clock from "./components/Clock";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1 className="text-center text-2xl">Digital Clock</h1>
-    </>
-  )
+    <div className="">
+      <Clock/>
+    </div>
+  );
 }
 
-export default App
+export default App;
